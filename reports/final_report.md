@@ -1,7 +1,7 @@
 ---
 title: "Predicting New York City Home Listing Prices"
 subtitle: "Final Project — Introductory Data Science"
-author: "Student Name"
+author: "Pavan Anandani"
 date: "May 2026"
 ---
 
