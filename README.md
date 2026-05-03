@@ -92,6 +92,8 @@ clusters in Staten Island and the eastern Bronx:
 
 ## Repo Structure
 
+To assist with this project, I used claude code in an agentic format, this involved me writing some skill files to help with the project. The project structure was as follows:
+
 ```
 data_science_project_housing_project/
 ├── CLAUDE.md                      # Project guidance for Claude Code
