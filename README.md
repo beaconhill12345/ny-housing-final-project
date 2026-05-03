@@ -1,8 +1,30 @@
+
+
+
 # Predicting New York City Home Listing Prices
 
 > A regression-modeling project on 4,801 active NYC listings that predicts
 > log-price within an 18% median dollar margin and surfaces what actually drives
 > the city's residential market.
+
+## Documents
+
+- 📄 [Final Report (PDF)](reports/final_report.pdf)
+- 📄 [Final Report (Markdown)](reports/final_report.md)
+
+## Notebooks
+
+###  EDA
+- 📓 Git Repo [01 — Exploratory Data Analysis](notebooks/01_eda.ipynb)
+- 📓 Google Colab https://drive.google.com/file/d/14YCOLWivrK3hQJaf0H9gOyJgP2JBvXCf/view?usp=sharing
+
+### Preprocessing & Modeling 
+- 📓 Git Repo [02 — Preprocessing & Modeling](notebooks/02_preprocessing_and_modeling.ipynb)
+- 📓 Google Colab https://drive.google.com/file/d/1K6qWVB9ynmmW0OYelCSvQHW2Wz0JbWSt/view?usp=sharing
+
+### Insights and Ethics
+- 📓 Git Repo [03 — Insights & Ethics](notebooks/03_insights_and_ethics.ipynb)
+- 📓 Google Colab https://drive.google.com/file/d/116gh4qCGB1nI3Ta-oi8ZiBMZcie-cnww/view?usp=sharing
 
 ## Overview
 
@@ -138,23 +160,8 @@ deliver substantially more space per dollar than Manhattan or Brooklyn:
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter nbformat markdown-pdf
 
 # 2. Place the dataset in data/  (NY-House-Dataset.csv)
-
-# 3. Run the notebooks in order
-python -m jupyter nbconvert --to notebook --execute notebooks/01_eda.ipynb --inplace
-python -m jupyter nbconvert --to notebook --execute notebooks/02_preprocessing_and_modeling.ipynb --inplace
-python -m jupyter nbconvert --to notebook --execute notebooks/03_insights_and_ethics.ipynb --inplace
-
-# 4. Re-render the report PDF
-python .claude/_render_pdf.py
 ```
 
-## Documents
-
-- 📄 [Final Report (PDF)](reports/final_report.pdf)
-- 📄 [Final Report (Markdown)](reports/final_report.md)
-- 📓 [01 — Exploratory Data Analysis](notebooks/01_eda.ipynb)
-- 📓 [02 — Preprocessing & Modeling](notebooks/02_preprocessing_and_modeling.ipynb)
-- 📓 [03 — Insights & Ethics](notebooks/03_insights_and_ethics.ipynb)
 
 ## Ethics
 
